@@ -12,3 +12,5 @@
 -only want to render shapes after the pointUp event fired, not just collecting all path and then keeping rendering them all after each event => create a shape array to collect all path after each pointUp event fired, and then give the "path" variable back to an empty array to collect new paths for next shapes to render new shapes after next pointUp events fired.
 
 -only want to render shapes but not let them stack onto each other after each rendering => just clear the previous rect and then recreate a new one before rendering a new shape.
+
+//draw a rectangle

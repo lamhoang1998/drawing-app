@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<canvas id="myCanvas"></canvas>
-		<select id="toolBox">
+		<select id="toolBox" onchange="changeTool(this.value)">
 			<option value="path" selected>Path</option>
 			<option value="rect">Rect</option>
 		</select>
